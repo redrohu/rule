@@ -96,6 +96,8 @@ const keyb =
   /(((1|2|3|4)\d)|(香港|Hong|HK) 0[5-9]|((新加坡|SG|Singapore|日本|Japan|JP|美国|United States|US|韩|土耳其|TR|Turkey|Korea|KR) 0[3-9]))/i;
 const rurekey = {
   GB: /UK/g,
+  "Ubuntu": /ubuntu/gi,
+  "Racknerd": /racknerd/gi,
   "B-G-P": /BGP/g,
   "Russia Moscow": /Moscow/g,
   "Korea Chuncheon": /Chuncheon|Seoul/g,
@@ -130,8 +132,6 @@ const rurekey = {
   法国: /巴黎/g,
   G: /\d\s?GB/gi,
   Esnc: /esnc/gi,
-  Ubuntu: /ubuntu/gi,
-  Racknerd: /racknerd/gi,
 };
 
 let GetK = false, AMK = []
