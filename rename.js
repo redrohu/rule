@@ -130,6 +130,8 @@ const rurekey = {
   法国: /巴黎/g,
   G: /\d\s?GB/gi,
   Esnc: /esnc/gi,
+  Ubuntu: /ubuntu/gi,
+  Racknerd: /racknerd/gi,
 };
 
 let GetK = false, AMK = []
